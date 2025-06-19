@@ -14,7 +14,7 @@ const path = require("path");
 
 const app = express();
 app.use(cors({
-  origin:["https://zerodha-app-omega.vercel.app","https://zerodha-dashboard-hazel.vercel.app/"], 
+  origin:["https://zerodha-app-sudiptonayeks-projects.vercel.app","https://zerodha-dashboard-hazel.vercel.app/"], 
   credentials: true,
 
 }));
