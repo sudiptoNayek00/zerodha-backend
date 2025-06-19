@@ -25,6 +25,9 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/api/client',route)
 
 
+app.get('/', (req, res) => {
+  res.send('Backend is running!');
+});
 
 
 //insert demo data into the database
