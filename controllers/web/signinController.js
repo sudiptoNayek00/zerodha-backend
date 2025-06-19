@@ -42,7 +42,7 @@ const SigninController = async (req, res) => {
     res.cookie("token", token, {
       httpOnly: true,
 
-      secure: false,
+      secure: true,
       sameSite: "lax", 
       maxAge: 60 * 60 * 1000, // 1 hour
     
