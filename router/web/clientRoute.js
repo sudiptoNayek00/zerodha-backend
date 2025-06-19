@@ -12,9 +12,7 @@ const { logoutController } = require('../../controllers/web/logoutController');
 const { forgotPasswordController, getResetPasswordController, PostResetPasswordController } = require('../../controllers/web/Passsword.controller');
 const { profileController } = require('../../controllers/web/profile.controller');
 
-route.get('/',(req,res)=>{
-  res.rend("root route")
-})
+
   //Sign Up Route ----------------------------------------------------------
 
   route.post("/signup", signUpController);
